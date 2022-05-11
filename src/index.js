@@ -1,7 +1,7 @@
 // Import express to index.js
 const express = require('express');
 // *** v1Router ***
-const v1Router = require("./v1/routes");
+const v1Router = require("./v1/routes/workoutRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
